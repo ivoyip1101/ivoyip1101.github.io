@@ -1,0 +1,53 @@
+a/Documents/hermes-sites/ivoyip.me/index.html → b/Documents/hermes-sites/ivoyip.me/index.html
+@@ -0,0 +1,51 @@
++<!DOCTYPE html>
++<html lang="zh-HK">
++<head>
++<meta charset="utf-8">
++<meta name="viewport" content="width=device-width, initial-scale=1">
++<title>Hermes</title>
++<style>
++  :root { color-scheme: light dark; }
++  body { margin: 0; font-family: -apple-system, "Helvetica Neue", "PingFang HK", "Microsoft JhengHei", sans-serif;
++         line-height: 1.75; color: #1c1c1e; background: #fff; }
++  main { max-width: 44rem; margin: 0 auto; padding: 4rem 1.5rem 6rem; }
++  h1 { font-size: 2rem; margin: 0 0 .25rem; letter-spacing: -0.01em; }
++  .lede { color: #6b6b70; margin: 0 0 2.5rem; font-size: .95rem; }
++  h2 { font-size: 1.125rem; margin: 2.25rem 0 .5rem; }
++  p, li { font-size: 1rem; }
++  ul { padding-left: 1.25rem; }
++  a { color: #0b62d6; }
++  footer { margin-top: 4rem; padding-top: 1.25rem; border-top: 1px solid #e5e5e7; color: #6b6b70; font-size: .875rem; }
++  @media (prefers-color-scheme: dark) {
++    body { color: #f2f2f7; background: #111113; }
++    .lede, footer { color: #9a9aa0; }
++    footer { border-top-color: #2c2c2e; }
++    a { color: #6cb2ff; }
++  }
++</style>
++</head>
++<body>
++<main>
++  <h1>Hermes</h1>
++  <p class="lede">個人自用助理工具</p>
++
++  <p>Hermes 係個人自用嘅助理工具，用於把我嘅檔案上載到我自己嘅 Google Drive 資料夾。此工具只供本人使用，不對外提供服務。</p>
++
++  <h2>功能</h2>
++  <ul>
++    <li>把我指定嘅檔案上載到本人 Google Drive 內一個由本工具建立嘅資料夾。</li>
++    <li>透過 Google Drive API 讀回檔案資料，確認上載成功。</li>
++  </ul>
++
++  <h2>使用嘅 Google 權限</h2>
++  <p>本工具只申請 <code>https://www.googleapis.com/auth/drive.file</code> 一個權限：只可以存取由本工具自己建立或由本人明確指定嘅檔案，無法讀取或修改本人 Drive 內其他任何檔案。</p>
++
++  <h2>私隱</h2>
++  <p>本工具不收集、不分享、不轉移任何 Google 使用者資料。詳情見<a href="/privacy/">私隱政策</a>。</p>
++
++  <footer>
++    <p>最後更新：2026-09-28 · 本網站為個人自用工具之說明頁。</p>
++  </footer>
++</main>
++</body>
++</html>
